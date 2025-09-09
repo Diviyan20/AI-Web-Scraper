@@ -38,6 +38,10 @@ An AI-powered web scraper that fetches, parses, and analyzes website landing pag
 | **Env Management** | Python-dotenv                                  |
 | **Deployment**     | Hugging Face / Streamlit / Docker *(optional)* |
 
+# 📸 Demo
+
+[View the Demo here](https://1drv.ms/v/c/baa26b84f8ba2114/EW6AK5Uu2OBGlh4Hhkr-e-cBj2RL4UGvrVKeGzkDZKs1ZA?e=N196fM)
+
 
 # 📦 Installation
 
@@ -45,22 +49,19 @@ An AI-powered web scraper that fetches, parses, and analyzes website landing pag
 
 `git clone https://github.com/Diviyan20/AI-Web-Scraper`
 
-`cd ai-web-scraper`
 
-2. Create a Virtual Environment
+2. Install Jupyter -> [Jupyter](https://jupyter.org/install)
 
-`python -m venv venv`
+3. Open Jupyter Notebook
 
-`source venv/bin/activate` -> For Linux/Mac
-
-`venv\Scripts\activate` -> For Windows
-
-3. Install Dependencies
-
-`pip install -r your_requirements.txt`
+   <img width="1865" height="743" alt="image" src="https://github.com/user-attachments/assets/acba7d2c-d2a4-4a73-8331-d7c19d8d2631" />
 
 
-4. Add Environment Variables
+   
+5. Locate your file
+   <img width="1572" height="170" alt="image" src="https://github.com/user-attachments/assets/0d3933af-ae52-4751-8e93-cc84dff4696a" />
+
+6. Add Environment Variables
 
 `OPENAI_API_KEY= your_openai_api_key`
 
@@ -68,7 +69,7 @@ An AI-powered web scraper that fetches, parses, and analyzes website landing pag
 
 ## Run the App
 
-`python main.py`
+`Shift + Enter in your Jupyter Notebook`
 
 This will launch a Gradio web interface at:
 
